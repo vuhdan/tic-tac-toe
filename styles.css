@@ -1,0 +1,24 @@
+#container{
+    display: grid;
+    width: 450px;
+    height: 450px;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+    border-style: solid;
+    margin: auto;
+}
+
+.tile {
+    font-size: 50px;
+    border-style: solid;
+    text-align: center;
+    
+}
+
+#myForm{
+    display: inline-block;
+}
+
+body{
+    text-align: center;
+}
